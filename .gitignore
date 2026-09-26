@@ -1,0 +1,25 @@
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+
+# Signing keys, local credentials, and private configuration
+*.jks
+*.keystore
+.env
+.env.*
+keystore.properties
+key.properties
+signing.properties
+secrets.properties
+credentials.properties
+*.local.properties
+*.private.properties
+
+# Generated packages and local output
+*.apk
+*.aab
+*.log
+.kotlin/
+app/release/
